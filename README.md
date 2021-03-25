@@ -11,9 +11,12 @@ generate application key.
 
     php artisan key:generate
     
-create tables.
+Create tables.
 
     php artisan migrate
+Seed data into teachers table.
+
+    php artisan db:seed
  
 Start the development server.
 
